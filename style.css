@@ -9,7 +9,6 @@
 /* DEBUG CONTENT */
 .content {
     height: 30px;
-    background-color: rgba(0, 0, 0, .2);
     width: 100%;
 }
 
@@ -33,7 +32,6 @@
 .nav-top {
     height: 100px;
     background-color: #255ee9;
-    border-bottom: solid;
 }
 
 .col-logo {
@@ -73,9 +71,46 @@
     background-size: cover;
     width: 100%;
     height: 530px;
+    position: relative;
 }
 
+.contenitoretesto {
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    color: white;
+    left: 30%;
+    top: 33%;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.pulsanti-top {
+    text-decoration: none;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;    
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.contenitoretesto h1 {
+    font-size: 60px;
+}
+
+
 /* SECTIONS */
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: lightgrey;
+}
 
 
 /* FOOTER */
